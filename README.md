@@ -20,9 +20,13 @@ For more info visit - https://jwt.io
 
 # Generated JSON Web Token for Authorized User
 
+Each time we send a response, a new token will be generated with different signature part.
+
 ![jwt2](https://github.com/THEPHD1331/EmployeeAPI-JwtSecurity/assets/126282296/798bafe9-a230-466d-bc3b-cf38c5ee63b4)
 
 
 # Access to resource by successful authentication
+
+We pass JWT in header Authorization Bearer, token is verified and validated to give us the required response.
 
 ![jwt4](https://github.com/THEPHD1331/EmployeeAPI-JwtSecurity/assets/126282296/b8abaffd-4c22-44fc-96b5-6026e275236f)
