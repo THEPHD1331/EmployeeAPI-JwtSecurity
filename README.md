@@ -5,7 +5,7 @@ This information can be verified and trusted because it is digitally signed. JWT
 
 Although JWTs can be encrypted to also provide secrecy between parties, we will focus on signed tokens. Signed tokens can verify the integrity of the claims contained within it, while encrypted tokens hide those claims from other parties. When tokens are signed using public/private key pairs, the signature also certifies that only the party holding the private key is the one that signed it.
 
-For more info visit [official.](https//:jwt.io)
+For more info visit [official.](https://jwt.io)
 
 
 # Unauthorized Prompt
