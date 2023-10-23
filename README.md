@@ -5,7 +5,7 @@ This information can be verified and trusted because it is digitally signed. JWT
 
 Although JWTs can be encrypted to also provide secrecy between parties, we will focus on signed tokens. Signed tokens can verify the integrity of the claims contained within it, while encrypted tokens hide those claims from other parties. When tokens are signed using public/private key pairs, the signature also certifies that only the party holding the private key is the one that signed it.
 
-For more info visit [official.](https://jwt.io)
+### For more info visit [official.](https://jwt.io)
 
 
 # Unauthorized Prompt
@@ -20,13 +20,13 @@ For more info visit [official.](https://jwt.io)
 
 # Generated JSON Web Token for Authorized User
 
-Each time we send a response, a new token will be generated with different signature part.
+### Each time we send a response, a new token will be generated with different signature part.
 
 ![jwt2](https://github.com/THEPHD1331/EmployeeAPI-JwtSecurity/assets/126282296/798bafe9-a230-466d-bc3b-cf38c5ee63b4)
 
 
 # Access to resource by successful authentication
 
-We pass JWT in header Authorization Bearer, token is verified and validated to give us the required response.
+### We pass JWT in header Authorization Bearer, token is verified and validated to give us the required response.
 
 ![jwt4](https://github.com/THEPHD1331/EmployeeAPI-JwtSecurity/assets/126282296/b8abaffd-4c22-44fc-96b5-6026e275236f)
